@@ -14,8 +14,8 @@ import numpy as np
 root=tk.Tk()
 root.withdraw()
 
-# Filepath = filedialog.askopenfilename()
-Filepath="D:/dan Java/3ds/Lockin X (V).bin"
+Filepath = filedialog.askopenfilename()
+# Filepath="D:/dan Java/3ds/Lockin X (V).bin"
 print(Filepath)
 file=open(Filepath,"rb")
 
