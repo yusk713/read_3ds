@@ -17,14 +17,14 @@ import tkinter as tk
 from tkinter import filedialog
 import struct
 import numpy as np
-# root=tk.Tk()
-# root.withdraw()
+root=tk.Tk()
+root.withdraw()
 
 
     
 def main():
-    Filepath ="D:/dan Java/3ds/Grid Spectroscopy002.3ds"
-    # Filepath = filedialog.askopenfilename() 
+#     Filepath ="D:/dan Java/3ds/Grid Spectroscopy002.3ds"
+    Filepath = filedialog.askopenfilename() 
     file=open(Filepath,"rb")
     
 
